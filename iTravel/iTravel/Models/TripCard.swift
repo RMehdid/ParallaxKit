@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import ParallaxKit
 
-struct TripCard: Identifiable, Hashable {
+struct TripCard: Card {
     var id: UUID { UUID() }
     var title: String
     var subTitle: String
