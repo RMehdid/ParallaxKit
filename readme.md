@@ -1,4 +1,4 @@
-# <img src="ParallaxKit.png" alt="Package Icon" width="32" height="32"> Parallax SwiftUI Project
+# <img src="ParallaxKit.png" alt="Package Icon" width="52" height="52"> Parallax SwiftUI Project
 
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-5.0-blue)
