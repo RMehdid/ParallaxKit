@@ -1,4 +1,5 @@
-# Parallax SwiftUI Project
+# <img src="ParallaxKit.png" alt="Package Icon" width="32" height="32"> Parallax SwiftUI Project
+
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-5.0-blue)
 ![SwiftPackage](https://img.shields.io/badge/Swift%20Package-main-green)
@@ -17,9 +18,12 @@ Parallax is a SwiftUI-based iOS app that demonstrates a parallax scrolling effec
 ## iTravel Demo App
 This package also includes a demo app called "iTravel" that showcases how to integrate and use the Parallax SwiftUI package in a real-world travel-themed application. You can explore the iTravel app to see the package in action and learn how to implement it in your projects.
 
-![Screenshot 1](/screenshots/screenshot1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
-![Screenshot 3](/screenshots/screenshot3.png)
+<img src="/screenshots/Screenshot1.png" alt="width: 240px; height: 320px;">
+<video width="240" height="320" controls>
+  <source src="VideoScreen.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<img src="/screenshots/Screenshot2.png" alt="Screenshot 2" style="width: 240px; height: 320px;">
 
 ## Installation
 

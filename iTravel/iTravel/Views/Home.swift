@@ -33,7 +33,7 @@ struct Home: View {
                     .background(.ultraThinMaterial, in: .capsule)
                 }
                 
-                Text("Where do you want to \nTravel?")
+                Text("Where do you want to Travel?")
                     .font(.largeTitle.bold())
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.top, 10)
