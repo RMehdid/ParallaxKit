@@ -18,8 +18,10 @@ Parallax is a SwiftUI-based iOS app that demonstrates a parallax scrolling effec
 ## iTravel Demo App
 This package also includes a demo app called "iTravel" that showcases how to integrate and use the Parallax SwiftUI package in a real-world travel-themed application. You can explore the iTravel app to see the package in action and learn how to implement it in your projects.
 
-<img src="/screenshots/Screenshot1.png" alt="Screenshot 1" style="width: 240px; height: 320px;">
-<img src="/screenshots/Screenshot2.png" alt="Screenshot 2" style="width: 240px; height: 320px;">
+<div style="display: flex;">
+    <img src="/screenshots/Screenshot1.png" alt="Screenshot 1" style="width: 240px; height: 380px;">
+    <img src="/screenshots/Screenshot2.png" alt="Screenshot 2" style="width: 240px; height: 380px;">
+</div>
 
 ## Installation
 
