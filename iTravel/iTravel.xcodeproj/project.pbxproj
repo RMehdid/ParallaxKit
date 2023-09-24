@@ -22,9 +22,9 @@
 		99C058292AC0597C00CC4039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99C0582B2AC0597E00CC4039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C0582E2AC0597E00CC4039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		99C0583A2AC05A1D00CC4039 /* ParallaxKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ParallaxKit; path = ../ParallaxKit; sourceTree = "<group>"; };
 		99C0583B2AC05A8600CC4039 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
 		99C0583D2AC05ABB00CC4039 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		99C058452AC05EFB00CC4039 /* ParallaxKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ParallaxKit; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		99C0581B2AC0597C00CC4039 = {
 			isa = PBXGroup;
 			children = (
-				99C0583A2AC05A1D00CC4039 /* ParallaxKit */,
+				99C058452AC05EFB00CC4039 /* ParallaxKit */,
 				99C058262AC0597C00CC4039 /* iTravel */,
 				99C058252AC0597C00CC4039 /* Products */,
 			);
