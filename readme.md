@@ -1,12 +1,3 @@
-//
-//  File.swift
-//  ParallaxKit
-//
-//  Created by Samy Mehdid on 24/9/2023.
-//
-
-import Foundation
-
 # Parallax SwiftUI Project
 
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-5.0-blue)
@@ -65,8 +56,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-              If you have any questions or suggestions, feel free to reach out to the project author at [sr.mehdid@gmail.com](mailto:sr.mehdid@gmail.com).
-
----
-
-Enjoy exploring and learning from the Parallax SwiftUI project! 🚀
+If you have any questions or suggestions, feel free to reach out to the project author at [sr.mehdid@gmail.com](mailto:sr.mehdid@gmail.com).
