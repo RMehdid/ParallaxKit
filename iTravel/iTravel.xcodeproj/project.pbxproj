@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994C9F522AC067810098758E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C9F512AC067810098758E /* Home.swift */; };
+		994C9F552AC067A20098758E /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C9F542AC067A20098758E /* TripCard.swift */; };
 		99C058282AC0597C00CC4039 /* iTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C058272AC0597C00CC4039 /* iTravelApp.swift */; };
 		99C0582A2AC0597C00CC4039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C058292AC0597C00CC4039 /* ContentView.swift */; };
 		99C0582C2AC0597E00CC4039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C0582B2AC0597E00CC4039 /* Assets.xcassets */; };
 		99C0582F2AC0597E00CC4039 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C0582E2AC0597E00CC4039 /* Preview Assets.xcassets */; };
 		99C058372AC059A900CC4039 /* ParallaxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 99C058362AC059A900CC4039 /* ParallaxKit */; };
-		99C0583C2AC05A8600CC4039 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 99C0583B2AC05A8600CC4039 /* Views */; };
-		99C0583E2AC05ABB00CC4039 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 99C0583D2AC05ABB00CC4039 /* Models */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		994C9F512AC067810098758E /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		994C9F542AC067A20098758E /* TripCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
 		99C058242AC0597C00CC4039 /* iTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C058272AC0597C00CC4039 /* iTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTravelApp.swift; sourceTree = "<group>"; };
 		99C058292AC0597C00CC4039 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99C0582B2AC0597E00CC4039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C0582E2AC0597E00CC4039 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		99C0583B2AC05A8600CC4039 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
-		99C0583D2AC05ABB00CC4039 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 		99C058452AC05EFB00CC4039 /* ParallaxKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ParallaxKit; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		994C9F532AC067850098758E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				994C9F512AC067810098758E /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		994C9F562AC067A70098758E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				994C9F542AC067A20098758E /* TripCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		99C0581B2AC0597C00CC4039 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +77,8 @@
 			children = (
 				99C058272AC0597C00CC4039 /* iTravelApp.swift */,
 				99C058292AC0597C00CC4039 /* ContentView.swift */,
-				99C0583B2AC05A8600CC4039 /* Views */,
-				99C0583D2AC05ABB00CC4039 /* Models */,
+				994C9F532AC067850098758E /* Views */,
+				994C9F562AC067A70098758E /* Models */,
 				99C0582B2AC0597E00CC4039 /* Assets.xcassets */,
 				99C0582D2AC0597E00CC4039 /* Preview Content */,
 			);
@@ -140,9 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C0583C2AC05A8600CC4039 /* Views in Resources */,
 				99C0582F2AC0597E00CC4039 /* Preview Assets.xcassets in Resources */,
-				99C0583E2AC05ABB00CC4039 /* Models in Resources */,
 				99C0582C2AC0597E00CC4039 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C0582A2AC0597C00CC4039 /* ContentView.swift in Sources */,
+				994C9F522AC067810098758E /* Home.swift in Sources */,
+				994C9F552AC067A20098758E /* TripCard.swift in Sources */,
 				99C058282AC0597C00CC4039 /* iTravelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

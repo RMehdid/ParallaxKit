@@ -1,26 +1,12 @@
 //
-//  Home.swift
-//  iTravel
+//  File.swift
+//  
 //
-//  Created by Samy Mehdid on 16/8/2023.
+//  Created by Samy Mehdid on 24/9/2023.
 //
 
 import SwiftUI
 import ParallaxKit
-
-struct TripCard: Card {
-    var id: UUID { UUID() }
-    var title: String
-    var subTitle: String
-    var image: String
-    
-    /// sample data
-    static let tripCards: [TripCard] = [
-        TripCard(title: "Algiers", subTitle: "Algeria", image: "algiers"),
-        TripCard(title: "New York", subTitle: "USA", image: "newYork"),
-        TripCard(title: "Oran", subTitle: "Algeria", image: "oran")
-    ]
-}
 
 struct Home: View {
     @State private var searchText: String = ""
